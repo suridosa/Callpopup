@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suridosa.callpopup.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mainLayout">
+
+    <Button
+        android:id="@+id/btnMap"
+        android:textSize="42px"
+        android:paddingLeft="18dip"
+        android:text="내 위치 보내기"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/map_exp"
+        android:drawablePadding="18dip"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/btnRecvList"
+        android:textSize="42px"
+        android:paddingLeft="18dip"
+        android:text="받은위치"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/map_imp"
+        android:drawablePadding="18dip"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/btnSendList"
+        android:textSize="42px"
+        android:paddingLeft="18dip"
+        android:text="보낸위치"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/map_exp"
+        android:drawablePadding="18dip"
+        android:layout_height="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/loginLayout">
+
+        <com.kakao.usermgmt.LoginButton
+            android:id="@+id/btnKakaoLogin"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

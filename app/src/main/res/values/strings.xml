@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">지도앱</string>
+    <string name="logout">로그아웃</string>
+    <string name="unknown">모르는번호</string>
+</resources>
